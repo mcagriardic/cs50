@@ -1,2 +1,2 @@
 # cs50
-Hardvard Computer Science Course
+Hardvard - Introduction to Computer Science - https://cs50.harvard.edu/x/2020/
