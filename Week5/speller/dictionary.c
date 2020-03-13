@@ -165,8 +165,10 @@ bool is_word_in_dict(const char *word, unsigned char index_1st, unsigned char in
     for (node *n = table[index_1st][index_2nd]; n != NULL; n = n->next)
     {
         result = strcasecmp(word, n->word);
-        if (result == 0){
+        if (result == 0)
+        {
             is_in_dict = true;
+            break;
         }
     }
 
